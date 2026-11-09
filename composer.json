@@ -1,0 +1,26 @@
+{
+    "name": "peopleinside/flarum-restricted-visibility",
+    "description": "Limita la visibilità di singoli post o intere discussioni a gruppi o utenti scelti, con notifiche filtrate e rimozione dati guidata.",
+    "type": "flarum-extension",
+    "license": "MIT",
+    "require": {
+        "php": "^8.2",
+        "flarum/core": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PeopleInside\\RestrictedVisibility\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Restricted Visibility",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-eye-slash",
+                "backgroundColor": "#7b4fc9",
+                "color": "#ffffff"
+            }
+        }
+    }
+}
