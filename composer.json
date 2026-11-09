@@ -1,0 +1,26 @@
+{
+    "name": "peopleinside/flarum-restricted-visibility",
+    "description": "Restrict visibility of individual posts or entire discussions to specific groups or users, with filtered notifications and clean data removal.",
+    "type": "flarum-extension",
+    "license": "MIT",
+    "require": {
+        "php": "^8.2",
+        "flarum/core": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PeopleInside\\RestrictedVisibility\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Restricted Visibility",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-eye-slash",
+                "backgroundColor": "#7b4fc9",
+                "color": "#ffffff"
+            }
+        }
+    }
+}
