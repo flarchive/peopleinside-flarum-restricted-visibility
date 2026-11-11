@@ -2,13 +2,24 @@
 
 > **Read-only archive of released versions of peopleinside/flarum-restricted-visibility.** Not for installation: use [Packagist](https://packagist.org/packages/peopleinside/flarum-restricted-visibility) or the [upstream repository](https://github.com/PeopleInside/flarum-restricted-visibility).
 
-**0** versions archived · Latest: [`1.1.4`](https://github.com/flarchive/peopleinside-flarum-restricted-visibility/tree/archive/v1.1.4) · License: `MIT` · Flarum: `^2.0`
+**14** versions archived · Latest: [`1.1.4`](https://github.com/flarchive/peopleinside-flarum-restricted-visibility/tree/archive/v1.1.4) · License: `MIT` · Flarum: `^2.0`
 
 ## Archived Versions
 
 | Version | Released | Flarum | Source |
 |---|---|---|---|
-| — | — | — | — |
+| `1.0.0` | 2026-11-10 | `^2.0` | [Browse](https://github.com/flarchive/peopleinside-flarum-restricted-visibility/tree/archive/v1.0.0) |
+| `1.0.1` | 2026-11-10 | `^2.0` | [Browse](https://github.com/flarchive/peopleinside-flarum-restricted-visibility/tree/archive/v1.0.1) |
+| `1.0.2` | 2026-11-10 | `^2.0` | [Browse](https://github.com/flarchive/peopleinside-flarum-restricted-visibility/tree/archive/v1.0.2) |
+| `1.0.3` | 2026-11-10 | `^2.0` | [Browse](https://github.com/flarchive/peopleinside-flarum-restricted-visibility/tree/archive/v1.0.3) |
+| `1.0.4` | 2026-11-10 | `^2.0` | [Browse](https://github.com/flarchive/peopleinside-flarum-restricted-visibility/tree/archive/v1.0.4) |
+| `1.0.5` | 2026-11-10 | `^2.0` | [Browse](https://github.com/flarchive/peopleinside-flarum-restricted-visibility/tree/archive/v1.0.5) |
+| `1.0.6` | 2026-11-10 | `^2.0` | [Browse](https://github.com/flarchive/peopleinside-flarum-restricted-visibility/tree/archive/v1.0.6) |
+| `1.0.7` | 2026-11-10 | `^2.0` | [Browse](https://github.com/flarchive/peopleinside-flarum-restricted-visibility/tree/archive/v1.0.7) |
+| `1.0.8` | 2026-11-10 | `^2.0` | [Browse](https://github.com/flarchive/peopleinside-flarum-restricted-visibility/tree/archive/v1.0.8) |
+| `1.1.0` | 2026-11-11 | `^2.0` | [Browse](https://github.com/flarchive/peopleinside-flarum-restricted-visibility/tree/archive/v1.1.0) |
+
+[View all 14 versions](https://github.com/flarchive/peopleinside-flarum-restricted-visibility/tags)
 
 Catalog entry: [packages/peopleinside-flarum-restricted-visibility.json](https://github.com/flarchive/archive-index/blob/main/packages/peopleinside-flarum-restricted-visibility.json)
 
