@@ -1,0 +1,63 @@
+peopleinside-restricted-visibility:
+  forum:
+    badge:
+      discussion: "Discussione riservata"
+      posts: "{count, plural, one {# messaggio riservato} other {# messaggi riservati}}"
+    post:
+      restricted: "Riservato"
+      restricted_to: "Riservato a: {names}"
+      discussion_restricted_to: "Discussione riservata a: {names}"
+      discussion_restricted: "Discussione riservata"
+      limited_by_discussion: "Messaggio pubblico, ma limitato dalla visibilità della discussione. Se la discussione torna pubblica, questo messaggio sarà visibile a tutti."
+    composer:
+      button: "Chi può vederlo?"
+    controls:
+      restrict: "Modifica visibilità…"
+    modal:
+      title: "Chi può vederlo?"
+      everyone: "Tutti quelli che già vedono la discussione"
+      only_some: "Solo gruppi o utenti scelti"
+      groups: "Gruppi"
+      users: "Utenti"
+      search_placeholder: "Cerca un utente…"
+      help: "Tu e i moderatori lo vedrete sempre. Chi non può vederlo non riceve né notifica né email. Puoi scegliere solo tra chi già vede la discussione: non puoi dare accesso a chi non potrebbe vederla."
+      empty_error: "Scegli almeno un gruppo o un utente, oppure seleziona \"Tutti\"."
+      orphaned: "I gruppi o gli utenti a cui era riservato sono stati rimossi: ora lo vedono solo l'autore, i moderatori e gli amministratori. Scegli chi può vederlo, oppure seleziona \"Tutti\" per renderlo pubblico."
+      no_permission_public: "Non hai il permesso di rendere di nuovo pubblico questo contenuto."
+      no_permission_private: "Non hai il permesso di restringere o cambiare chi può vedere i contenuti."
+      warn_no_public: "Attenzione: non hai il permesso di rendere di nuovo pubblico un contenuto riservato. Una volta pubblicato o salvato così non potrai più tornare indietro: dovrà farlo chi ha quel permesso."
+      warn_no_private: "Attenzione: non hai il permesso di rendere privato un contenuto già esistente. Una volta pubblicato o salvato come pubblico non potrai più limitarne la visibilità: dovrà farlo chi ha quel permesso."
+      warn_no_edit_after: "Attenzione: non hai il permesso di modificare la visibilità di contenuti già pubblicati. Dopo la pubblicazione non potrai più cambiare gruppi o utenti scelti: potrai solo renderlo pubblico (se hai quel permesso) e poi non potrai più limitarlo."
+      save: "Applica"
+  admin:
+    permissions:
+      create_private: "Creare nuovi post e discussioni privati"
+      restrict: "Rendere privati i post e le discussioni già esistenti (restringere la visibilità)"
+      make_public: "Rendere pubblici i propri post e discussioni (togliere la restrizione)"
+      view_all: "Vedere tutti i contenuti riservati"
+    button_position:
+      label: "Posizione del pulsante nel composer"
+      help: "Dove compare il pulsante \"Chi può vederlo?\" rispetto ai pulsanti Pubblica e Anteprima."
+      before_submit: "Prima del pulsante Pubblica"
+      after_submit: "Dopo il pulsante Pubblica (predefinito)"
+      after_preview: "Dopo il pulsante Anteprima"
+    danger:
+      title: "Zona pericolosa"
+      help: "Elimina tutte le restrizioni di visibilità, i permessi e le impostazioni di questa estensione. Fallo PRIMA di disattivarla o rimuoverla."
+      button: "Elimina tutti i dati dell'estensione…"
+    purge:
+      title: "Elimina tutti i dati dell'estensione"
+      summary: "{discussions} discussioni e {posts} post sono riservati ({groups} collegamenti a gruppi, {users} a utenti)."
+      choose: "Cosa fare dei contenuti riservati?"
+      mode_hide: "Nascondi (consigliato)"
+      mode_hide_help: "Li marca come nascosti: solo i moderatori potranno vederli. Non si perde nulla."
+      mode_delete: "Elimina definitivamente"
+      mode_delete_help: "Cancella per sempre i post e le discussioni riservate."
+      mode_public: "Rendi pubblici"
+      mode_public_help: "Rimuove solo le restrizioni: tutti vedranno questi contenuti."
+      warning: "Questa operazione è irreversibile. Verranno eliminate tutte le restrizioni, i permessi e le impostazioni dell'estensione. Se non scegli di nascondere o eliminare i contenuti riservati, diventeranno visibili a tutti. Fai prima un backup del database. Poi disattiva l'estensione: non proteggerà nulla finché non reimposti le restrizioni."
+      type_to_confirm: "Digita {word} per continuare"
+      run: "Elimina i dati"
+      done: "Fatto. Discussioni interessate: {discussions}, post interessati: {posts}."
+      next_steps: "Ora: 1) disattiva l'estensione, 2) clicca \"Elimina dati\" nella pagina dell'estensione per rimuovere le tabelle, 3) composer remove peopleinside/flarum-restricted-visibility."
+      close: "Chiudi"
